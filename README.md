@@ -14,13 +14,14 @@ python clean_links.py
 #Conclusion: Before running the script, you need to create a file called domins.txt that will contain the links. After that, run the script with the python command clean_links.py. You will find a file named all.txt that contains the cleaned links.
 
 
+
+   ## Usage:
+    ```bash
+    git clone https://github.com/zooka777/urlclen
+    cd urlclen
+    python --version
+    pip install -r requirements.txt
+    python clean_links.py
+
 ## Examples
 ![Nature View](https://i.imgur.com/YiuHq2i.png)
-
-## Usage:
-```bash
-git clone https://github.com/zooka777/urlclen
-cd urlclen
-python --version
-pip install -r requirements.txt
-python clean_links.py
