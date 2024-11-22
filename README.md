@@ -16,7 +16,7 @@ python clean_links.py
 
 
    ## Usage:
-    ```bash
+   
     git clone https://github.com/zooka777/urlclen
     cd urlclen
     python --version
