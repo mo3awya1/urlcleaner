@@ -1,17 +1,17 @@
-#الوصف هذا السكربت مكتوب بلغة Python ويهدف إلى استخراج الروابط (URLs) من ملف نصي يحتوي على بيانات مختلطة، مثل نصوص وروابط، مع إزالة أي رموز غير مرغوب فيها قد تكون مرفقة بالروابط (مثل ], [, !، وغيرها). يتم حفظ الروابط النظيفة في ملف جديد.
+# Description This script is written in Python and aims to extract links (URLs) from a text file containing mixed data, such as texts and links, while removing any unwanted symbols that may be attached to the links (such as ], [, !, etc.). Clean links are saved in a new file.
 
-#كيفية عمل السكربت قراءة البيانات: يقرأ السكربت محتويات ملف إدخال (domins.txt) يحتوي على نصوص مختلطة وروابط. استخراج الروابط: باستخدام التعبيرات النمطية (Regular Expressions)، يقوم السكربت بتحديد الروابط. تنظيف الروابط: يزيل أي رموز غير مرغوب فيها مرتبطة بالروابط. حفظ النتائج: يتم حفظ الروابط النظيفة في ملف جديد (all.txt).
+#How the script works Read data: The script reads the contents of an input file (domins.txt) that contains mixed texts and links. Extracting links: Using regular expressions, the script identifies links. Link Cleanup: Removes any unwanted codes associated with links. Save results: Clean links are saved in a new file (all.txt).
 
-#لمتطلبات Python 3.6 أو أحدث. ملف إدخال يحتوي على نصوص وروابط (domins.txt).
+#Requires Python 3.6 or later. An input file containing text and links (domins.txt).
 
-#طريقة الاستخدام
+#How to use
 
-إعداد السكربت: قم بتنزيل السكربت واحفظه في ملف باسم clean_links.py.
-إنشاء ملف الإدخال: أنشئ ملفًا باسم domins.txt وضع فيه النصوص والروابط.
-تشغيل السكربت: افتح سطر الأوامر أو الطرفية وانتقل إلى المجلد الذي يحتوي على السكربت. نفذ الأمر التالي لتشغيل السكربت:
+Preparing the script: Download the script and save it in a file named clean_links.py.
+Create the input file: Create a file named domins.txt and put the text and links in it.
+Run the script: Open a command line or terminal and navigate to the folder containing the script. Execute the following command to run the script:
 python clean_links.py
 
-#الخلاصه يحتاج قبل تشغيل الاسكربت قوم بنشاء ملف باسم domins.txt يكون فيه الراوبط بعد كده شغل الاسكربت بامر python clean_links.py هتلاقي ضفلك ملف اسمه all.txt هذا اللي فيه الروابط اللي متنظفة
+#Conclusion: Before running the script, you need to create a file called domins.txt that will contain the links. After that, run the script with the python command clean_links.py. You will find a file named all.txt that contains the cleaned links.
 
 
 ## Examples
