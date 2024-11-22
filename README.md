@@ -1,4 +1,4 @@
-# Description This script is written in Python and aims to extract links (URLs) from a text file containing mixed data, such as texts and links, while removing any unwanted symbols that may be attached to the links (such as ], [, !, etc.). Clean links are saved in a new file.
+Description This script is written in Python and aims to extract links (URLs) from a text file containing mixed data, such as texts and links, while removing any unwanted symbols that may be attached to the links (such as ], [, !, etc.). Clean links are saved in a new file.
 
 #How the script works Read data: The script reads the contents of an input file (domins.txt) that contains mixed texts and links. Extracting links: Using regular expressions, the script identifies links. Link Cleanup: Removes any unwanted codes associated with links. Save results: Clean links are saved in a new file (all.txt).
 
